@@ -101,3 +101,12 @@ console.log(director);
 
 const {projectname}=project;
 console.log(projectname)
+
+
+
+// JSON
+// {
+//     "name":"Avinash",
+//     "designation": "CEO",
+//     "company": "Google"
+// }
