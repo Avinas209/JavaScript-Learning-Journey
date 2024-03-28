@@ -7,7 +7,7 @@ function chai(){
 
 // Another way to use this function is 
 
-(function chai(){
+(function chai(){       //Named IIFE
     console.log(`DB CONNECTED`);
 })();            //   Pay attention to the parenthesis used in this function
 //  Question: Why we use IIFE? 
@@ -16,6 +16,6 @@ function chai(){
 
 
 //  We must use semicolon to stop the execution of the previous IIFE before initiating 2nd IIFE function to avoid error
-( (name) => {
+( (name) => {       // Unnamed IIFE or Simple IIFE
     console.log(`DB CONNECTED TWO ${name}`)
 })("Avinash")
