@@ -39,11 +39,20 @@ const someVarible = () => {       //Arrow function
 
 
 
-// const addTwo = (num1, num2) => {
+// const addTwo = (num1, num2) => {     //Example of explicit arrow function
 //     return num1 + num2
 // }
-console.log(addTwo(3,5));
+// console.log(addTwo(3,5));
 
 
 
-const  addTwo = (num1, num2) => ( num1 + num2)
+// const  addTwo = (num1, num2) => num1 + num2  // Example of Implicit arrow function
+
+
+// const  addTwo = (num1, num2) => (num1 + num2)
+
+// Note : We don't need to use return keyword with parenthesis but we have to use return keyword with curly braces
+
+//  Let us suppose that we want to return an object in arrow function so we can use it like this
+
+const addTwo = (num1, num2) => ({username : "Avinash20902"})

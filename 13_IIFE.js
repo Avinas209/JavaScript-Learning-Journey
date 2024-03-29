@@ -16,6 +16,7 @@ function chai(){
 
 
 //  We must use semicolon to stop the execution of the previous IIFE before initiating 2nd IIFE function to avoid error
+
 ( (name) => {       // Unnamed IIFE or Simple IIFE
     console.log(`DB CONNECTED TWO ${name}`)
 })("Avinash")
